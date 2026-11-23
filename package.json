@@ -1,0 +1,15 @@
+{
+  "name": "pw-static-code-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RSledevskis/pw-static-code-analysis.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6"
+  },
+  "scripts": {
+    "install-browsers": "yarn playwright install",
+    "test": "yarn playwright test"
+  }
+}
